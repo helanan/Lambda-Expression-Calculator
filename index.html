@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lambda Calculator </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> <!-- Boostrap CDN -->
+	<link rel="stylesheet" href="main.css"> 
+	<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+</head>
+<body>
+ <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Lambda Calculator</h1>
+      </div>
+      </div>
+      <hr>
+    <form name ="Calculator" action="index_submit" method="get" accept-charset="utf-8">
+      <div class="form-group">
+       <input type="text" name="numberOne_input" id="one" placeholder="Enter Number Here"><br>
+       <input type="text" name="numberTwo_input" id="two" placeholder="Enter Number Here"><br>
+       <button type="button" class="btn btn-default" id="add">+</button>
+       <button type="button" class="btn btn-default" id="subtract">-</button>
+       <button type="button" class="btn btn-default" id="multiply">*</button>
+       <button type="button" class="btn btn-default" id="divide">/</button>
+       <button type="button" class="btn btn-default" id="modulus">%</button>
+       <p id="result"></p>
+       <p id="value_one"></p>
+       <p id="value_two"></p>
+       </div>
+    </form>
+</body>
+<script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
+</html>
